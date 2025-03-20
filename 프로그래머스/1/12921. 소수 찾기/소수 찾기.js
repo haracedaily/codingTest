@@ -6,7 +6,6 @@ function solution(n) {
         if (i == 3) { num.push(i); count++; continue; };
         let b = true;
         const sqri = Math.sqrt(i);
-
         for (let j = 0; j < num.length; j++) {
             if (num[j]> sqri) break;
             if (i % num[j] == 0) {
