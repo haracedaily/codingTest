@@ -19,7 +19,6 @@ function solution(n, works) {
             }
         }
     }
-    console.log(works);
 //     for (let i = 0; i < n; i++) {
 //         // works[0]-=1;
 //          let res = works[0]-works[1];
